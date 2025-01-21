@@ -1,0 +1,30 @@
+.item-1{
+    background-color: lightcoral;
+}
+.item-2{
+    background-color: lightgreen;
+}
+.item-3{
+    background-color: lightskyblue;
+}
+.item-4{
+    background-color: lightseagreen;
+}
+
+.item{
+    font-size: 2rem;
+    text-align: center;
+    flex: 1;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+@media screen and (min-width : 600px){
+    .container{
+        flex-direction: row;
+    }
+}
